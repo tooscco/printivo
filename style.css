@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tomi {
+    background: #f7f6f4;
+}
+
+.tomi a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #506683 !important;
+}
+
+.mina a{
+    color: #1DA1F2 !important;
+    text-decoration: none !important;
+}
+
+.mina span{
+    font-size: 13px;
+    font-weight: 600;
+    color: #506683 !important;
+}
+
+.fir-div{
+    cursor: pointer;
+}
+
+
+.tola{
+    background: #f7f6f4;
+}
+
+.sec-div{
+    background-image: url(image/val-banner_bk99je.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 490px;
+}
+
+.sec-div-div{
+    margin: 0px 0px 0px 200px;
+}
+
+.sec-div-div a, .sec-div-div-div a{
+    color: #4B6382;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sec-div-div-div button{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+
+.sec-div-sec-div img{
+    width: 450px;
+}
+
+.sec-div-sec{
+    position: relative;
+    bottom: -85px;
+    height: 260px;
+    width: 635px;
+}
+
+.sec-div-sec h3{
+    font-size: 36px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 550;
+    font-style: normal;
+    color: #EE120D;
+}
+
+.sec-div-sec label{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.sec-div-sec input{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.sec-div-sec a{
+    position: relative;
+    top: -50px;
+    left: 590px;
+}
+
+.sec-div-sec-div{
+    position: relative;
+    bottom: -70px;
+    left: 131.9px;
+}
+
+.thir-div-fir, .thir-div-sec{
+    width: 280.9px;
+}
+
+.thir-div-fir01 a {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.thir-div-fir01 img{
+    height: 220px;
+    position: relative;
+    left: -5px;
+    top: -7px;
+    width: 292px;
+}
+
+.thir-div-fir01 a{
+    position: relative;
+    left: -12px;
+    width: 279px;
+    height: 210px;
+    display: block;
+    transition: .4s;
+}
+
+.thir-div-fir01 img:hover{
+    transform: scale(1.1);
+    transform-origin: 50%, 50%;
+}
+
+.thir-div h3{
+    font-size: 33px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.thir-div a{
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #D77F81;
+}
+
+.thir-div-div h3{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.thir-div-div p{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    color: #708095;
+}
+
+.thir-div-price h3{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.thir-div-price span{
+    font-size: 16.9px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    color: #708095;
+}
+
+.thir-div-btn span{
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+.thir-div-btn img{
+    position: relative;
+    left: 14px;
+    animation: Ayooluwa 0.5s linear forwards;
+    transition: 1s;
+}
+
+.thir-div-btn, .thir-div-btn:hover{
+    background: #D77F81;
+    border: none;
+}
+
+.thir-div-btn:hover img{
+    animation: Ayooluwa 0.5s linear;
+    transition: 1s;
+}
+
+@keyframes Ayooluwa{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+}
+
+.four-div-div h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.four-div-sec{
+    width: 600px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #506683;
+}
+
+.four-div-thir img{
+    width: 1140px;
+}
+
+.five-div{
+    background: #EDF6FD;
+}
+
+.five-div-div h3{
+    font-size: 30px;
+    font-weight: 550;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+.five-div-fir, .five-div-sec, .five-div-thir{
+    background: #ffffff;
+}
+
+.five-div img{
+    width: 38px;
+    padding: 10px;
+}
+
+.five-div-fir-sec01, .five-div-sec-sec01, .five-div-thir-sec01{
+    font-size: 14.9px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #565462;
+    
+}
+
+.five-div-fir-sec01 a, .five-div-sec-sec01 a, .five-div-thir-sec01 a, .five-div-fir-sec02 a, .five-div-sec-sec02 a, .five-div-thir-sec02 a{
+    color: #26a3f2;
+}
+
+.five-div-fir-seco2, .five-div-sec-seco2, .five-div-thir-seco2{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    color: #565462;
+}
+
+.six-div-div h3{
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 550;
+    color: #384A62;
+}
+
+.six-div-sec-fir{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color:  #506683;
+}
+
+.six-div-sec-sec{
+    font-size: 15.9px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    color: #677F9E;
+}
+
+.seven-div{
+    background: #F7F6F4;
+}
+
+.seven-div-div h3{
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 550;
+    color: #384A62;
+}
+
+.seven-div-fir img{
+    width: 170px;
+}
+
+.seven-div-div a{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+    text-decoration: underline !important;
+}

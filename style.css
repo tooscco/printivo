@@ -43,11 +43,17 @@ a{
 }
 
 .sec-div{
-    background-image: url(image/val-banner_bk99je.png);
+    background-image: url(image/val-banner_bk99je\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 490px;
 }
+
+/* .sec-div-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+} */
 
 .sec-div-div{
     margin: 0px 0px 0px 200px;
@@ -227,8 +233,8 @@ a{
 }
 
 .four-div-sec{
-    width: 600px;
-    font-size: 21px;
+    width: 605px;
+    font-size: 22px;
     font-weight: 600;
     font-family: "DM Serif Display", serif;
     color: #506683;
@@ -270,7 +276,7 @@ a{
     color: #26a3f2;
 }
 
-.five-div-fir-seco2, .five-div-sec-seco2, .five-div-thir-seco2{
+.five-div-fir-sec02, .five-div-sec-sec02, .five-div-thir-sec02{
     font-size: 15px;
     font-weight: 400;
     font-family: "DM Serif Display", serif;
@@ -319,4 +325,114 @@ a{
     font-family: "DM Serif Display", serif;
     color: #384A62;
     text-decoration: underline !important;
+}
+
+.eight-div{
+    background: #384A62;
+}
+
+.eight-div h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #ECE8D9;
+}
+
+.eight-div a{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    color: #ffffff;
+}
+
+.eight-div-thir-last img, .eight-div-sec-last img{
+    width: 170px;
+}
+
+.nine-div{
+    background: #cbcac8;
+}
+
+.nine-div-div p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+}
+
+@media  (max-width:480px) {
+    .sec-div{
+        background-size: cover;
+        background-position: center;
+    }
+    .sec-div-navbar{
+    }
+    .sec-div-div-div button {
+        color: #384A62;
+    }
+    .sec-div-sec input{
+        font-size: 13px;
+        font-weight: 550;
+    }
+    .sec-div-sec a{
+        position: relative;
+        top: -50px;
+        left: 300px;
+    }
+    .thir-div h3{
+        font-size: 20px;
+    }
+    .thir-div a{
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "DM Serif Display", serif;
+        color: #D77F81;
+    }
+    .card{
+        width: 97%;
+    }
+    .thir-div-fir01 img{
+        height: 220px;
+        position: relative;
+        left: -5px;
+        top: -7px;
+        width: 108%;
+    }
+    .thir-div-fir01 a{
+        width: 107.8%;
+    }
+    .four-div-div h3{
+        font-size: 28px;
+    }
+    .four-div-sec{
+        width: 100%;
+        font-size: 17px;
+    }
+    .four-div-thir img{
+        width: 100%;
+    }
+    .five-div-fir-sec01, .five-div-sec-sec01, .five-div-thir-sec01{
+        font-size: 12.9px;
+    }
+    .five-div-fir-sec02, .five-div-sec-sec02, .five-div-thir-sec02{
+        font-size: 13.5px;
+        font-weight: 400;
+        font-family: "DM Serif Display", serif;
+        color: #565462;
+        padding: 0px 12px 0px 0px;
+    }
+    .six-div-sec-sec{
+        width: 87%;
+    }.six-div-div h3{
+        font-size: 22px;
+    }
+    .six-div-sec-fir{
+        font-size: 14px;
+    }
+    .nine-div-div p{
+        font-size: 17px;
+        font-weight: 400;
+        font-family: "DM Serif Display", serif;
+        color: #384A62;
+    }
 }

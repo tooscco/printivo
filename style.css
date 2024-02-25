@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -49,10 +53,20 @@ a{
     height: 490px;
 }
 
-/* .sec-div-navbar{
+/* .sec-div-div-navbar{
+    display: none;
+    border: 2px solid red;
     position: sticky;
     top: 0;
     z-index: 1000;
+    background: #ffffff;
+    padding: 15px 0px 15px 50px !important;
+    margin: 0px !important;
+    overflow: hidden;
+}
+
+.sec-div-div-navbar.sec-div-div-navbar{
+    display: flex !important;
 } */
 
 .sec-div-div{
@@ -384,18 +398,11 @@ a{
     }
     .thir-div a{
         font-size: 14px;
-        font-weight: 600;
-        font-family: "DM Serif Display", serif;
-        color: #D77F81;
     }
     .card{
         width: 97%;
     }
     .thir-div-fir01 img{
-        height: 220px;
-        position: relative;
-        left: -5px;
-        top: -7px;
         width: 108%;
     }
     .thir-div-fir01 a{
@@ -416,9 +423,6 @@ a{
     }
     .five-div-fir-sec02, .five-div-sec-sec02, .five-div-thir-sec02{
         font-size: 13.5px;
-        font-weight: 400;
-        font-family: "DM Serif Display", serif;
-        color: #565462;
         padding: 0px 12px 0px 0px;
     }
     .six-div-sec-sec{
@@ -434,8 +438,5 @@ a{
     }
     .nine-div-div p{
         font-size: 17px;
-        font-weight: 400;
-        font-family: "DM Serif Display", serif;
-        color: #384A62;
     }
 }
